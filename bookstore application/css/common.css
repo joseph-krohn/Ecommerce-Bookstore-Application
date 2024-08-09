@@ -1,0 +1,105 @@
+/* Common Styles for All Pages */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0f7fa; /* Light-dark blue background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #e0e0e0; /* Light grey background */
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark grey text */
+}
+
+header input[type="text"] {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header button {
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header a {
+    margin-left: 10px;
+    color: #007BFF; /* Blue links */
+    text-decoration: none;
+}
+
+header a:hover,
+header button:hover {
+    color: #333; /* Dark grey hover for links and buttons */
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+main {
+    padding: 20px 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e0e0e0; /* Light grey background */
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    margin: 0 15px;
+    color: #007BFF; /* Blue links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0056b3; /* Darker blue hover */
+}
+
+.icon {
+    max-width: 25px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.logo img {
+    max-width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.header-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.header-button img {
+    max-width: 25px;
+    height: auto;
+}
+
+.italic {
+    font-style: italic;
+}

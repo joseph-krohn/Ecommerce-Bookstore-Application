@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="homepage.html"><img src="images/logo.png" alt="Brand Logo"></a>
+        </div>
+        <input type="text" id="searchBar" placeholder="Search for books...">
+        <button id="searchButton" class="header-button"><img src="images/search-icon.png" alt="Search" class="icon"></button>
+        <a href="login.html" class="login">Login/SignUp</a>
+        <a href="cart.html" class="cart"><img src="images/cart.png" alt="Cart" class="icon"></a>
+    </header>
+    <main>
+        <h2>Shopping Cart</h2>
+        <div id="cartItemsContainer"></div>
+        <div id="cartSummary">
+            <p>Subtotal: <span id="cartSubtotal">$0.00</span></p>
+            <p>Total (including taxes): <span id="cartTotal">$0.00</span></p>
+            <button id="checkoutButton">Proceed to Checkout</button>
+        </div>
+    </main>
+    <footer>
+        <a href="#">Contact</a>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">FAQ</a>
+    </footer>
+    <script src="js/cart.js"></script>
+</body>
+</html>

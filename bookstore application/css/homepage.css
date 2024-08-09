@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0f7fa; /* Light-dark blue background */
+    color: #333; /* Dark grey text */
+}
+
+main {
+    padding: 20px 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2, h3 {
+    color: #333; /* Dark grey text */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+.recommended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recommended-details {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.recommended-details img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.recommended-info {
+    max-width: 600px;
+}
+
+.recommended-info h3, .recommended-info p {
+    margin: 5px 0;
+}
+
+.recommended-reviews {
+    max-width: 800px;
+}
+
+.recommended-reviews p {
+    margin: 5px 0;
+}
+
+.categories {
+    text-align: center;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category:hover {
+    background-color: #0056b3; /* Darker blue hover */
+}
+
+.new-titles {
+    text-align: center;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.book-item h4 {
+    color: #007BFF; /* Blue text */
+    margin: 10px 0 5px;
+}
+
+.book-item p {
+    color: #555; /* Medium grey text */
+    margin: 5px 0;
+}
+
+.book-item a {
+    color: #007BFF; /* Blue links */
+    text-decoration: none;
+    margin-top: 10px;
+    border: 2px solid #007BFF; /* Blue border */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.book-item a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.recommended-details {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.recommended-details img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recommended-info {
+    flex: 1;
+}
+
+.recommended-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recommended-info p {
+    margin-bottom: 10px;
+}
+
+.recommended-info .italic {
+    font-style: italic;
+}
+
+#rec-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#rec-button:hover {
+    background-color: #0056b3;
+}
+
+.recommended-reviews {
+    margin-top: 20px;
+}
+
+.recommended-reviews h4 {
+    margin-bottom: 10px;
+}
+
+.recommended-reviews p {
+    margin-bottom: 5px;
+}
