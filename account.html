@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/account.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="homepage.html"><img src="images/logo.png" alt="Bookshop Logo"></a>
+        </div>
+        <div class="navbar">
+            <input type="text" id="searchBar" placeholder="Search for books...">
+            <button id="searchButton" class="header-button"><img src="images/search-icon.png" alt="Search" class="icon"></button>
+            <a href="login.html">Login/SignUp</a>
+            <a href="cart.html"><img src="images/cart.png" alt="Cart" class="icon"></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="account-container">
+            <h2>Account Details</h2>
+            <div class="account-info">
+                <h3>Personal Information</h3>
+                <p><strong>Username:</strong> johndoe</p>
+                <p><strong>Email:</strong> johndoe@example.com</p>
+                <p><strong>Member Since:</strong> January 2021</p>
+            </div>
+            <div class="order-history">
+                <h3>Order History</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Date</th>
+                            <th>Total</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12345</td>
+                            <td>2023-06-01</td>
+                            <td>$29.99</td>
+                            <td>Shipped</td>
+                        </tr>
+                        <tr>
+                            <td>67890</td>
+                            <td>2023-05-15</td>
+                            <td>$15.99</td>
+                            <td>Delivered</td>
+                        </tr>
+                        <tr>
+                            <td>11223</td>
+                            <td>2023-04-22</td>
+                            <td>$45.00</td>
+                            <td>Cancelled</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="account-settings">
+                <h3>Account Settings</h3>
+                <button>Change Password</button>
+                <button>Update Email</button>
+                <button>Delete Account</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="#">Contact</a>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">FAQ</a>
+    </footer>
+
+    <script src="js/account.js"></script>
+</body>
+</html>
